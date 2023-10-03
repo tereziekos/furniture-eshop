@@ -14,7 +14,7 @@ const App = () => {
       title: "Sofas",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/sofa/paul-weaver-nWidMEQsnAQ-unsplash.jpg",
       id: 1,
       linkUrl: "sofas",
     },
@@ -22,7 +22,7 @@ const App = () => {
       title: "Armchairs",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/armchair/daniil-silantev-1P6AnKDw6S8-unsplash.jpg",
       id: 2,
       linkUrl: "armchairs",
     },
@@ -31,7 +31,7 @@ const App = () => {
       title: "Dining Chairs",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/dining chair/krisztian-tabori-4nmn1QSbrIA-unsplash.jpg",
       id: 3,
       linkUrl: "dining-chairs",
     },
@@ -39,23 +39,23 @@ const App = () => {
       title: "Stools",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/stool/gahara-putra-qqPGw4iQHw0-unsplash.jpg",
       id: 4,
       linkUrl: "stools",
     },
     {
-      title: "Dining room",
+      title: "Dining room seating",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/room/jonathan-borba-COzqEKjaxqo-unsplash.jpg",
       id: 5,
       linkUrl: "dining-room",
     },
     {
-      title: "Living room",
+      title: "Living room seating",
       subtitle: "Shop now",
       imageUrl:
-        "https://www.ikea.com/images/ektorp-three-seat-sofa-10-year-guarantee__1364485295954-s5-250x250.jpg",
+        "/images/room/spacejoy-c0JoR_-2x3E-unsplash.jpg",
       id: 6,
       linkUrl: "living-room",
     },
