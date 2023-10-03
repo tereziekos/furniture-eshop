@@ -1,3 +1,5 @@
+import "./categories.styles.scss";
+
 interface Category {
   title: string;
   subtitle: string;
@@ -60,6 +62,7 @@ const App = () => {
   ];
 
   return (
+    <div>
     <div className="categories-container">
       {categories.map(({ title, subtitle, imageUrl, id }) => (
         <div className="category-container" key={id}>
@@ -71,6 +74,8 @@ const App = () => {
         </div>
       ))}
     </div>
+    </div>
   );
 };
+
 export default App;
