@@ -1,6 +1,8 @@
-import "./categories.styles.scss";
+import React from "react";
+import CategoryDirectory from "./components/category-directory/category-directory.component";
 
-interface Category {
+
+export interface Category {
   title: string;
   subtitle: string;
   imageUrl: string;
@@ -8,21 +10,20 @@ interface Category {
   linkUrl: string;
 }
 
+
 const App = () => {
   const categories: Category[] = [
     {
       title: "Sofas",
       subtitle: "Shop now",
-      imageUrl:
-        "/images/sofa/paul-weaver-nWidMEQsnAQ-unsplash.jpg",
+      imageUrl: "/images/sofa/paul-weaver-nWidMEQsnAQ-unsplash.jpg",
       id: 1,
       linkUrl: "sofas",
     },
     {
       title: "Armchairs",
       subtitle: "Shop now",
-      imageUrl:
-        "/images/armchair/daniil-silantev-1P6AnKDw6S8-unsplash.jpg",
+      imageUrl: "/images/armchair/daniil-silantev-1P6AnKDw6S8-unsplash.jpg",
       id: 2,
       linkUrl: "armchairs",
     },
@@ -38,44 +39,31 @@ const App = () => {
     {
       title: "Stools",
       subtitle: "Shop now",
-      imageUrl:
-        "/images/stool/gahara-putra-qqPGw4iQHw0-unsplash.jpg",
+      imageUrl: "/images/stool/gahara-putra-qqPGw4iQHw0-unsplash.jpg",
       id: 4,
       linkUrl: "stools",
     },
     {
       title: "Dining room seating",
       subtitle: "Shop now",
-      imageUrl:
-        "/images/room/jonathan-borba-COzqEKjaxqo-unsplash.jpg",
+      imageUrl: "/images/room/jonathan-borba-COzqEKjaxqo-unsplash.jpg",
       id: 5,
       linkUrl: "dining-room",
     },
     {
       title: "Living room seating",
       subtitle: "Shop now",
-      imageUrl:
-        "/images/room/spacejoy-c0JoR_-2x3E-unsplash.jpg",
+      imageUrl: "/images/room/spacejoy-c0JoR_-2x3E-unsplash.jpg",
       id: 6,
       linkUrl: "living-room",
     },
   ];
 
+
   return (
     <div>
-    <div className="categories-container">
-      {categories.map(({ title, subtitle, imageUrl, id }) => (
-        <div className="category-container" key={id}>
-          <img src={imageUrl} alt={title} />
-          <div className="category-body-container">
-            <h2>{title}</h2>
-            <p>{subtitle}</p>
-          </div>
-        </div>
-      ))}
-    </div>
+<CategoryDirectory categories={categories}  />
     </div>
   );
 };
-
 export default App;
