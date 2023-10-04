@@ -1,8 +1,9 @@
 
 
 .directory-container {
+    margin-top: 90px;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 90px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

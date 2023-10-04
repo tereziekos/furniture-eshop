@@ -37,24 +37,17 @@ const App = () => {
       linkUrl: "dining-chairs",
     },
     {
-      title: "Stools",
-      subtitle: "Shop now",
-      imageUrl: "/images/stool/gahara-putra-qqPGw4iQHw0-unsplash.jpg",
-      id: 4,
-      linkUrl: "stools",
-    },
-    {
       title: "Dining room seating",
       subtitle: "Shop now",
       imageUrl: "/images/room/jonathan-borba-COzqEKjaxqo-unsplash.jpg",
-      id: 5,
+      id: 4,
       linkUrl: "dining-room",
     },
     {
       title: "Living room seating",
       subtitle: "Shop now",
       imageUrl: "/images/room/spacejoy-c0JoR_-2x3E-unsplash.jpg",
-      id: 6,
+      id: 5,
       linkUrl: "living-room",
     },
   ];
